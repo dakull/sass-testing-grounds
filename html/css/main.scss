@@ -222,6 +222,7 @@ textarea {
 
 // this is the actual CSS
 $color: #333;
+$light-color: #fff;
 $paragraph-normalised-size: 16px;
 $border-rad: 5px;
 $bg-color: #369;
@@ -246,5 +247,16 @@ section {
     border: solid 5px #fc0;
     border-radius: $border-rad;
     background: $bg-color;
+  }
+}
+
+
+footer {
+  background: $color;
+  p {
+    width:800px;
+    margin:0 auto;
+    padding:50px;
+    color: $light-color;
   }
 }
