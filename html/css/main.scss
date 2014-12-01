@@ -223,6 +223,8 @@ textarea {
 // this is the actual CSS
 $color: #333;
 $paragraph-normalised-size: 16px;
+$border-rad: 5px;
+$bg-color: #369;
 
 header {
   font-weight: normal;
@@ -233,5 +235,16 @@ header {
   }
   p {
     font-size: $paragraph-normalised-size;
+  }
+}
+
+section {
+  width:400px;
+  margin:0 auto;
+  p {
+    color: #fff;
+    border: solid 5px #fc0;
+    border-radius: $border-rad;
+    background: $bg-color;
   }
 }
