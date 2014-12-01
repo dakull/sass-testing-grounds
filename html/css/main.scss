@@ -218,3 +218,20 @@ textarea {
         page-break-after: avoid;
     }
 }
+
+
+// this is the actual CSS
+$color: #333;
+$paragraph-normalised-size: 16px;
+
+header {
+  font-weight: normal;
+  text-align: center;
+  h1 {
+    font-weight: 600;
+    color: $color;
+  }
+  p {
+    font-size: $paragraph-normalised-size;
+  }
+}
